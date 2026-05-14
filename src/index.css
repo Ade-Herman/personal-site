@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@theme {
+  /* Customizing the "Arctic Clean" Palette */
+  --color-brand-primary: var(--color-sky-400);
+  --color-brand-secondary: var(--color-slate-800);
+  --color-surface-100: #ffffff;
+  --color-surface-200: var(--color-sky-50);
+  --color-text-main: var(--color-slate-950);
+  --color-text-muted: var(--color-slate-500);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Add your global styles or custom theme variables here */
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface-100 text-text-main font-sans antialiased;
+}
