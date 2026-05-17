@@ -60,6 +60,6 @@ The site will follow a single-page scrolling architecture for a seamless narrati
 - [x] Phase 2: Setup environment and directory architecture.
 - [x] Phase 3: Develop Hero, About, and Navigation components.
 - [x] Phase 4: Build Project Grid with mock data.
-- [ ] Phase 5: Implement Experience and Contact sections.
+- [x] Phase 5: Implement Experience and Contact sections.
 - [ ] Phase 6: Refine animations and polish UI.
 - [ ] Phase 7: Deployment and SEO optimization.

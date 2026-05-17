@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
-
+import { ExternalLink } from "lucide-react";
+import { FiGithub } from "react-icons/fi";
 const ProjectCard = ({ project }) => {
   return (
     <motion.div
@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
               rel="noreferrer"
               className="text-text-muted hover:text-text-main transition-colors"
             >
-              <Github size={20} />
+              <FiGithub size={20} />
             </a>
             <a
               href={project.demo}
