@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -11,6 +11,11 @@
   --color-text-muted: var(--color-slate-500);
 
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, monospace;
+
+  /* Custom Breakpoints for Ultra-Wide / 27" Monitors */
+  --breakpoint-3xl: 120rem; /* 1920px */
+  --breakpoint-4xl: 160rem; /* 2560px */
 }
 
 /* Add your global styles or custom theme variables here */
@@ -19,5 +24,31 @@
 }
 
 body {
-  @apply bg-surface-100 text-text-main font-sans antialiased;
+  @apply bg-surface-100 text-text-main font-sans antialiased overflow-x-hidden;
 }
+
+/* Ambient background pattern for wide screens */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(56, 189, 248, 0.18) 1.2px, transparent 1.2px);
+  background-size: 28px 28px;
+}
+
+.bg-dot-mesh {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-grid-lines {
+  background-image: 
+    linear-gradient(to right, rgba(224, 242, 254, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(224, 242, 254, 0.5) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+

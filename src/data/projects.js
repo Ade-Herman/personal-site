@@ -32,4 +32,16 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=800",
   },
+  {
+    id: 4,
+    title: "Aether Pulse",
+    description:
+      "A real-time audio visualization platform and synth workbench. Features Web Audio API integration, customizable DSP shader presets, and responsive canvas rendering for interactive sound design.",
+    tech: ["React", "Web Audio API", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com",
+    demo: "https://demo.com",
+    image:
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+  },
 ];
+
