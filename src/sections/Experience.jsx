@@ -37,7 +37,7 @@ const experiences = [
 const Experience = () => {
   return (
     <section id="experience" className="py-24 2xl:py-32 px-6 md:px-12 2xl:px-16 bg-surface-200/70 relative">
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] mx-auto">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 2xl:gap-20 items-start">
           
           {/* Left Column: Summary & Career Overview (lg:col-span-5 2xl:col-span-5) */}
@@ -93,7 +93,7 @@ const Experience = () => {
                   className="relative"
                 >
                   {/* Timeline Node Badge */}
-                  <div className="absolute -left-[37px] md:-left-[53px] top-0 bg-white border-2 border-brand-primary text-brand-primary p-2 rounded-full z-10 shadow-sm transition-transform hover:scale-110">
+                  <div className="absolute -left-9.25 md:-left-13.25 top-0 bg-white border-2 border-brand-primary text-brand-primary p-2 rounded-full z-10 shadow-sm transition-transform hover:scale-110">
                     {exp.icon}
                   </div>
 

@@ -34,7 +34,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-24 2xl:py-32 px-6 md:px-12 2xl:px-16 bg-white relative">
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] mx-auto">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 mx-auto">
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16 pb-6 border-b border-sky-100">
           <div>

@@ -21,7 +21,7 @@ const Contact = () => {
       {/* Background ambient light */}
       <div className="absolute bottom-0 right-0 w-[600px] h-[400px] bg-sky-200/20 rounded-full blur-3xl pointer-events-none -z-10" />
 
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] mx-auto">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 2xl:gap-24 items-center mb-20">
           
           {/* Left Column: Heading & Information (lg:col-span-7) */}

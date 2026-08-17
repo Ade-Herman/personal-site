@@ -29,7 +29,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] mx-auto flex justify-between items-center">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 mx-auto flex justify-between items-center">
         <a
           href="#"
           className="text-xl md:text-2xl font-black tracking-tighter text-text-main flex items-center gap-2 group"

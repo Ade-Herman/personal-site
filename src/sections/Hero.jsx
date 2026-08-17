@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-gradient-to-tr from-sky-200/40 via-blue-100/30 to-sky-300/20 rounded-full blur-3xl -z-10 pointer-events-none" />
       <div className="absolute top-10 right-10 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl -z-10 pointer-events-none" />
 
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] w-full mx-auto">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 w-full mx-auto">
         <motion.div
           className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 2xl:gap-24 items-center"
           variants={containerVariants}

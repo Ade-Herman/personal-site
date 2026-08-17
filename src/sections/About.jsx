@@ -45,7 +45,7 @@ const About = () => {
       {/* Background Grid Accent */}
       <div className="absolute inset-0 bg-grid-lines opacity-60 pointer-events-none" />
 
-      <div className="max-w-7xl 2xl:max-w-[1440px] 3xl:max-w-[1720px] 4xl:max-w-[2000px] mx-auto relative z-10">
+      <div className="max-w-7xl 2xl:max-w-360 3xl:max-w-430 4xl:max-w-500 mx-auto relative z-10">
         <div className="mb-16">
           <span className="text-xs md:text-sm font-bold tracking-widest text-brand-primary uppercase bg-sky-100/60 px-3 py-1 rounded-full">
             About Me
